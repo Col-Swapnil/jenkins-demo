@@ -14,7 +14,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'docker run --name ditiss12 -p 9300:80 -d ditiss23:v1'
+                sh 'docker run --name ditiss123 -p 9300:80 -d ditiss23:v1'
             }
         }
     }
